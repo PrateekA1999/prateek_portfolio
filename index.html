@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Prateek Agarwal — Software Development Engineer II</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <main class="page" id="main">
+
+    <!-- NAV -->
+    <nav class="top-nav">
+      <button class="nav-logo-btn" id="navToggle" type="button" aria-expanded="false" aria-controls="navMenu"
+        aria-label="Open navigation menu">
+        <span class="nav-logo-icon" aria-hidden="true">
+          <svg class="icon-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.15"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 7.25h12"></path>
+            <path d="M4 12h16"></path>
+            <path d="M8 16.75h8"></path>
+          </svg>
+          <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.15"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M7 7 17 17"></path>
+            <path d="M17 7 7 17"></path>
+          </svg>
+        </span>
+      </button>
+
+      <div aria-label="Primary" aria-live="polite" class="nav-menu" id="navMenu">
+        <a aria-current="page" class="nav-link" data-section-link href="#hero">About Me</a>
+        <a aria-current="page" class="nav-link" data-section-link href="#experience">Experience</a>
+        <a class="nav-link" data-section-link href="#projects">Projects</a>
+        <a class="nav-link" data-section-link href="#skills">Skills</a>
+        <a class="nav-link" data-section-link href="#certifications">Certifications &amp; Education</a>
+        <a class="nav-link" data-section-link href="#contact">Contact</a>
+      </div>
+
+      <div class="theme-toggle-group" role="tablist" aria-label="Theme switcher">
+        <button class="theme-switch active" type="button" data-theme-value="system" aria-pressed="true"
+          aria-label="System theme" title="System theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <rect x="3.5" y="4.5" width="17" height="11" rx="2.5"></rect>
+            <path d="M8 19.5h8"></path>
+            <path d="M10 15.5v4"></path>
+            <path d="M14 15.5v4"></path>
+          </svg>
+        </button>
+        <button class="theme-switch" type="button" data-theme-value="light" aria-pressed="false"
+          aria-label="Light theme" title="Light theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.2"></circle>
+            <path d="M12 2.8v2.3"></path>
+            <path d="M12 18.9v2.3"></path>
+            <path d="m5.6 5.6 1.6 1.6"></path>
+            <path d="m16.8 16.8 1.6 1.6"></path>
+            <path d="M2.8 12h2.3"></path>
+            <path d="M18.9 12h2.3"></path>
+            <path d="m5.6 18.4 1.6-1.6"></path>
+            <path d="m16.8 7.2 1.6-1.6"></path>
+          </svg>
+        </button>
+        <button class="theme-switch" type="button" data-theme-value="dark" aria-pressed="false" aria-label="Dark theme"
+          title="Dark theme">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M20 14.2A7.8 7.8 0 1 1 9.8 4 6.2 6.2 0 0 0 20 14.2Z"></path>
+          </svg>
+        </button>
+      </div>
+
+      <div class="nav-download-wrap">
+        <a class="btn btn-primary nav-download" id="resumeDownload" href="/resume-download"
+          download="Prateek_Agarwal_Resume.pdf" aria-label="Download Resume">
+          <span class="download-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round">
+              <path d="M12 4v9"></path>
+              <path d="m8.5 10.5 3.5 3.5 3.5-3.5"></path>
+              <path d="M5 18h14"></path>
+            </svg>
+          </span>
+          <span class="download-label">Download Resume</span>
+        </a>
+        <span class="nav-download-tooltip">Download Resume</span>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero">
+      <div class="hero-left">
+        <div class="hero-kicker">Software Development Engineer II</div>
+        <h1 class="hero-name">Prateek<br /><span class="accent">Agarwal</span></h1>
+        <p class="hero-sub">
+          Software Development Engineer II with <strong>4+ years</strong> of experience across
+          <strong>Node.js, React, AWS, SQL, and NoSQL</strong> — building scalable backend systems,
+          modern product interfaces, and CI/CD pipelines for enterprise applications and high-throughput services.
+        </p>
+        <div class="hero-stats">
+          <div class="stat">
+            <div class="stat-num">4+</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-num">50+</div>
+            <div class="stat-label">Features Delivered</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-num">50K+</div>
+            <div class="stat-label">Users Impacted</div>
+          </div>
+
+          <div class="stat">
+            <div class="stat-num">8+</div>
+            <div class="stat-label">Production Systems</div>
+          </div>
+        </div>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="mailto:prateek.aga.1999@gmail.com"><span class="btn-icon"
+              aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 6h16v12H4z"></path>
+                <path d="m4 8 8 6 8-6"></path>
+              </svg></span><span>Get In Touch</span></a>
+          <a class="btn btn-outline" href="#experience"><span class="btn-icon" aria-hidden="true"><svg
+                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M7 17 17 7"></path>
+                <path d="M9 7h8v8"></path>
+              </svg></span><span>View Experience</span></a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <div class="hero-photo-aura"></div>
+        <div class="hero-photo-wrap">
+          <img class="hero-photo" src="Professional2.png" alt="Portrait of Prateek Agarwal" />
+        </div>
+        <div class="hero-floating-card hero-card-top">
+          <span class="hero-card-label">Core Stack</span>
+          <span class="hero-card-value">React • Node.js • AWS</span>
+        </div>
+        <div class="hero-floating-card hero-card-bottom">
+          <span class="hero-card-label">Delivery & Data</span>
+          <span class="hero-card-value">GitHub Actions • SQL/NoSQL</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <div class="sw sw-alt" id="experience">
+      <div class="sh">
+        <h2 class="sh-title">Work Experience</h2>
+        <div class="sh-line"></div>
+      </div>
+
+      <div aria-label="Work experience carousel" class="carousel-shell" data-carousel="" data-carousel-name="experience"
+        role="region" tabindex="0">
+        <div class="carousel-topbar">
+          <div class="carousel-helper exp-carousel-helper">Use arrow buttons, trackpad, mouse drag, or swipe to move
+            through experience.</div>
+          <div aria-label="Experience controls" class="carousel-controls" role="group">
+            <button aria-label="Previous experience slide" class="carousel-btn prev" data-dir="prev"
+              type="button">←</button>
+            <button aria-label="Next experience slide" class="carousel-btn next" data-dir="next"
+              type="button">→</button>
+          </div>
+        </div>
+        
+<div class="carousel-viewport">
+          <div class="carousel-track exp-track">
+
+            <!-- Slide 1: Leeds -->
+            <div aria-label="1 of 4" aria-roledescription="slide" class="exp-item carousel-slide exp-slide"
+              data-index="0" data-obs="">
+              <div class="exp-top">
+                <h3 class="exp-company">Leeds Life Sciences</h3>
+                <span class="exp-period">Feb 2026 – Present</span>
+              </div>
+              <div class="exp-meta">
+                <span class="tag tag-blue">Software Development Engineer II</span>
+                <span class="tag tag-green">React / Node.js / AWS</span>
+                <span class="tag tag-gray">📍 Delhi, India</span>
+              </div>
+              <div class="exp-body">
+                <div class="metrics-col">
+                  <div class="metric-chip">25% faster UI</div>
+                  <div class="metric-chip">3K–5K users</div>
+                  <div class="metric-chip">&lt;250ms APIs</div>
+                  <div class="metric-chip">20% faster queries</div>
+                  <div class="metric-chip">60% faster CI/CD</div>
+                  <div class="metric-chip">End-to-end ownership</div>
+                </div>
+                <ul class="bullets">
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Led modernization of legacy applications (<strong>Wallet, Academy, Ratna, and Udaan</strong>) using React, improving load time by <strong>25%</strong> and enhancing UI consistency.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Built scalable <strong>Node.js services on AWS</strong> with Express, RDS, and S3, supporting <strong>3K–5K users</strong> with stable <strong>&lt;250ms</strong> latency.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Optimized <strong>SQL &amp; NoSQL databases</strong> across MySQL, MongoDB, and DynamoDB, reducing response time by <strong>20%</strong>.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Automated delivery through <strong>GitHub Actions CI/CD</strong>, reducing manual deployment effort by <strong>60%</strong> and improving release reliability.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Owned <strong>end-to-end architecture and delivery</strong> for key modules, from design to production deployment, while mentoring developers to improve code quality.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Slide 2: Plantix -->
+            <div aria-label="2 of 4" aria-roledescription="slide" class="exp-item carousel-slide exp-slide"
+              data-index="1" data-obs="">
+              <div class="exp-top">
+                <h3 class="exp-company">Plantix Agritech</h3>
+                <span class="exp-period">Apr 2023 – Jan 2026</span>
+              </div>
+              <div class="exp-meta">
+                <span class="tag tag-blue">Software Development Engineer II / I</span>
+                <span class="tag tag-green">Node.js / AWS</span>
+                <span class="tag tag-gray">📍 Indore, India</span>
+              </div>
+              <div class="exp-body">
+                <div class="metrics-col">
+                  <div class="metric-chip">40% query improvement</div>
+                  <div class="metric-chip">10K+ concurrent users</div>
+                  <div class="metric-chip">&lt;150ms response</div>
+                  <div class="metric-chip">40% cost reduction</div>
+                  <div class="metric-chip">60% faster CI/CD</div>
+                  <div class="metric-chip">95% code coverage</div>
+                </div>
+                <ul class="bullets">
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Led a cross-functional team of <strong>4 engineers</strong> delivering GraphQL APIs via AWS AppSync and Lambda resolvers, improving query performance by <strong>40%</strong> with <strong>&lt;150ms</strong> response times.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Architected <strong>serverless microservices</strong> with Lambda, Docker, DynamoDB, and tsyringe, cutting infrastructure costs by <strong>40%</strong> while scaling to <strong>10K+ users</strong>.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Built reusable <strong>Node.js modules</strong> with dependency injection, standardizing resolver and service patterns and improving development velocity by <strong>50%</strong>.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Optimized <strong>MySQL and DynamoDB</strong> performance and automated deployments through GitHub Actions, achieving <strong>60%</strong> faster releases and <strong>99.9%</strong> uptime.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Established testing with <strong>Sinon / Chai / Mocha</strong>, raising code coverage to <strong>95%</strong> and reducing production bugs by <strong>60%</strong>.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Slide 3: Timestream -->
+            <div aria-label="3 of 4" aria-roledescription="slide" class="exp-item carousel-slide exp-slide"
+              data-index="2" data-obs="">
+              <div class="exp-top">
+                <h3 class="exp-company">Timestream Technologies</h3>
+                <span class="exp-period">Feb 2023 – Mar 2023</span>
+              </div>
+              <div class="exp-meta">
+                <span class="tag tag-blue">Software Development Engineer I</span>
+                <span class="tag tag-green">Angular / Node.js</span>
+                <span class="tag tag-gray">📍 Noida, India</span>
+              </div>
+              <div class="exp-body">
+                <div class="metrics-col">
+                  <div class="metric-chip">30% workflow efficiency</div>
+                  <div class="metric-chip">30–40% faster data retrieval</div>
+                  <div class="metric-chip">Healthcare platform</div>
+                </div>
+                <ul class="bullets">
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Developed full-stack <strong>Angular + Node.js applications</strong>, improving healthcare workflow efficiency by <strong>30%</strong> through intuitive UI and robust backend integration.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Built scalable backend services with <strong>Node.js/PHP, Kafka, and MySQL/MongoDB</strong>, reducing data retrieval time by <strong>30–40%</strong>.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Designed responsive UI components and optimized API integrations, improving overall system performance and user experience.</span></li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Slide 4: DLT Labs -->
+            <div aria-label="4 of 4" aria-roledescription="slide" class="exp-item carousel-slide exp-slide"
+              data-index="3" data-obs="">
+              <div class="exp-top">
+                <h3 class="exp-company">DLT Labs</h3>
+                <span class="exp-period">Nov 2021 – Feb 2023</span>
+              </div>
+              <div class="exp-meta">
+                <span class="tag tag-blue">Software Development Engineer I</span>
+                <span class="tag tag-green">Angular / Node.js</span>
+                <span class="tag tag-gray">📍 Noida, India</span>
+              </div>
+              <div class="exp-body">
+                <div class="metrics-col">
+                  <div class="metric-chip">25% less downtime</div>
+                  <div class="metric-chip">40% analytics boost</div>
+                  <div class="metric-chip">90% test coverage</div>
+                  <div class="metric-chip">35% data efficiency</div>
+                </div>
+                <ul class="bullets">
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Deployed <strong>Dockerized microservices on AWS EC2</strong>, enabling zero-downtime deployments and reducing deployment issues by <strong>25%</strong>.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Optimized <strong>TRINO queries on Elasticsearch/MongoDB</strong>, improving analytics performance by <strong>40%</strong> with sub-second response times.</span></li>
+                  <li><span class="arr" aria-hidden="true">
+                      <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M9 12.75 11.25 15 15.5 9.75"></path>
+                        <path d="M20 12a8 8 0 1 1-4.4-7.16"></path>
+                      </svg>
+                    </span><span class="txt">Built scalable <strong>Node.js APIs with MongoDB and Kafka streaming</strong>, achieving <strong>90%</strong> test coverage and improving data processing efficiency by <strong>30–35%</strong>.</span></li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div aria-label="Experience slides" class="carousel-dots" role="tablist">
+          <button aria-label="Go to Leeds Life Sciences" aria-selected="true" class="carousel-dot is-active" data-index="0"
+            role="tab" type="button">1</button>
+          <button aria-label="Go to Plantix Agritech" aria-selected="false" class="carousel-dot" data-index="1"
+            role="tab" type="button">2</button>
+          <button aria-label="Go to Timestream Technologies" aria-selected="false" class="carousel-dot" data-index="2"
+            role="tab" type="button">3</button>
+          <button aria-label="Go to DLT Labs" aria-selected="false" class="carousel-dot" data-index="3" role="tab"
+            type="button">4</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- PROJECTS -->
+    <div class="sw-alt sw" id="projects">
+      <div class="sh">
+        <h2 class="sh-title">Featured Projects</h2>
+        <div class="sh-line"></div>
+      </div>
+
+      
+<div class="projects-showcase">
+        <article class="project-spotlight" data-obs="">
+          <div class="project-spotlight-top">
+            <div>
+              <span class="project-eyebrow">Current Product Suite</span>
+              <h3 class="project-spotlight-title">Parijat Suites</h3>
+            </div>
+            <span class="project-time-pill">Feb 2026 – Present</span>
+          </div>
+
+          <p class="project-spotlight-copy">
+            Built and modernized a connected suite of enterprise applications for Parijat Industries, improving product
+            usability, backend scalability, and delivery speed across Wallet, Academy, Ratna, and Udaan.
+          </p>
+
+          <div class="project-outcomes">
+            <div class="project-outcome">
+              <span class="project-outcome-value">25%</span>
+              <span class="project-outcome-label">faster UI load</span>
+            </div>
+            <div class="project-outcome">
+              <span class="project-outcome-value">30%</span>
+              <span class="project-outcome-label">faster feature delivery</span>
+            </div>
+            <div class="project-outcome">
+              <span class="project-outcome-value">Unified</span>
+              <span class="project-outcome-label">enterprise workflows</span>
+            </div>
+          </div>
+
+          <div class="project-feature-grid">
+            <div class="project-feature-card">
+              <div class="project-feature-icon">🎨</div>
+              <div class="project-feature-title">Modern UI Revamp</div>
+              <p>Revamped user interfaces with React and reusable components to improve consistency, navigation, and
+                overall experience across applications.</p>
+            </div>
+            <div class="project-feature-card">
+              <div class="project-feature-icon">🗄️</div>
+              <div class="project-feature-title">Scalable Data Layer</div>
+              <p>Integrated Node.js services with SQL and NoSQL databases plus AWS-managed infrastructure for modular
+                and maintainable backend flows.</p>
+            </div>
+            <div class="project-feature-card">
+              <div class="project-feature-icon">⚡</div>
+              <div class="project-feature-title">Delivery Acceleration</div>
+              <p>Improved release speed through modular architecture and GitHub Actions-driven delivery pipelines across
+                business-critical modules.</p>
+            </div>
+          </div>
+        </article>
+
+        <div class="project-grid">
+          <article class="project-panel" data-obs="">
+            <div class="project-panel-head">
+              <span class="project-panel-index">02</span>
+              <span class="project-panel-period">Mar 2025 – Jan 2026</span>
+            </div>
+            <h3 class="project-panel-title">Agriverse Platform</h3>
+            <p class="project-panel-copy">
+              Built a modern backend delivery foundation for microservices with repeatable local environments, stronger
+              modularity, and reliable release automation.
+            </p>
+            <div class="project-pill-row">
+              <span class="project-pill">Docker</span>
+              <span class="project-pill">CI/CD</span>
+              <span class="project-pill">Node.js</span>
+              <span class="project-pill">Serverless</span>
+            </div>
+            <ul class="project-checks">
+              <li>Containerized microservices for stable local development and environment consistency.</li>
+              <li>Improved multi-stage CI/CD speed by <strong>60%</strong> through GitHub Actions automation.</li>
+              <li>Applied tsyringe dependency injection to shared Node.js packages for modularity and testability.</li>
+            </ul>
+          </article>
+
+          <article class="project-panel" data-obs="">
+            <div class="project-panel-head">
+              <span class="project-panel-index">03</span>
+              <span class="project-panel-period">Apr 2023 – Jan 2025</span>
+            </div>
+            <h3 class="project-panel-title">Plantix Partner &amp; Operations</h3>
+            <p class="project-panel-copy">
+              Strengthened internal product operations through secure access models, business dashboards, and real-time
+              operational visibility.
+            </p>
+            <div class="project-pill-row">
+              <span class="project-pill">RBAC</span>
+              <span class="project-pill">Security</span>
+              <span class="project-pill">Salesforce</span>
+              <span class="project-pill">Integrations</span>
+            </div>
+            <ul class="project-checks">
+              <li>Implemented authentication, role-based controls, and encryption for compliance-ready workflows.</li>
+              <li>Designed Salesforce dashboards with Apex-backed integrations for stronger operational visibility.</li>
+              <li>Delivered real-time insights for faster, data-driven decision-making.</li>
+            </ul>
+          </article>
+
+          <article class="project-panel" data-obs="">
+            <div class="project-panel-head">
+              <span class="project-panel-index">04</span>
+              <span class="project-panel-period">Nov 2021 – Feb 2023</span>
+            </div>
+            <h3 class="project-panel-title">DL Insights</h3>
+            <p class="project-panel-copy">
+              Built enterprise analytics capabilities with multi-tenant microservices, optimized resource usage, and a
+              high-accuracy query formulation layer for complex multi-database reporting.
+            </p>
+            <div class="project-pill-row">
+              <span class="project-pill">Multi-tenant</span>
+              <span class="project-pill">Analytics</span>
+              <span class="project-pill">MongoDB</span>
+              <span class="project-pill">TRINO</span>
+            </div>
+            <ul class="project-checks">
+              <li>Led development of multi-tenant microservices with optimized resource allocation for analytics workloads.</li>
+              <li>Ensured strict data segregation to support enterprise-grade scalability and tenant isolation.</li>
+              <li>Engineered an advanced query formulator for complex multi-database queries with high accuracy.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <!-- SKILLS -->
+    <div class="sw-alt" id="skills">
+      <div class="sw-alt-inner">
+        <div class="sh">
+          <h2 class="sh-title">Skills &amp; Technologies</h2>
+          <div class="sh-line"></div>
+        </div>
+
+        <div class="skills-revamp">
+          <article class="skills-hero-card" data-obs="">
+            <div class="skills-hero-top">
+              <div>
+                <span class="project-eyebrow">Engineering Toolkit</span>
+                <h3 class="skills-hero-title">Full-stack, backend-strong, cloud-ready</h3>
+              </div>
+              <div class="skills-focus-badge">4+ years building scalable services</div>
+            </div>
+
+            <p class="skills-hero-copy">
+              Strongest in React, TypeScript, Node.js, AWS services, CI/CD automation, and scalable backend architecture backed by SQL and NoSQL systems.
+            </p>
+
+            <div class="skills-highlight-grid">
+              <div class="skills-highlight">
+                <span class="skills-highlight-label">Primary Stack</span>
+                <span class="skills-highlight-value">React • TypeScript • Node.js</span>
+              </div>
+              <div class="skills-highlight">
+                <span class="skills-highlight-label">Cloud & Delivery</span>
+                <span class="skills-highlight-value">AWS • GitHub Actions • Docker • Lambda</span>
+              </div>
+              <div class="skills-highlight">
+                <span class="skills-highlight-label">Data Layer</span>
+                <span class="skills-highlight-value">MySQL • MongoDB • DynamoDB</span>
+              </div>
+            </div>
+          </article>
+
+          <div class="skills-dashboard">
+            <article class="skill-card skill-card-wide" data-obs="">
+              <div class="sk-cat">Core Proficiency</div>
+              <div class="proficiency-list">
+                <div class="proficiency-item">
+                  <div class="proficiency-meta"><span>TypeScript</span><strong>Advanced</strong></div>
+                  <div class="bar-bg">
+                    <div class="bar-fill" data-w="0.95"></div>
+                  </div>
+                </div>
+                <div class="proficiency-item">
+                  <div class="proficiency-meta"><span>JavaScript</span><strong>Advanced</strong></div>
+                  <div class="bar-bg">
+                    <div class="bar-fill" data-w="0.94"></div>
+                  </div>
+                </div>
+                <div class="proficiency-item">
+                  <div class="proficiency-meta"><span>Node.js</span><strong>Advanced</strong></div>
+                  <div class="bar-bg">
+                    <div class="bar-fill" data-w="0.93"></div>
+                  </div>
+                </div>
+                <div class="proficiency-item">
+                  <div class="proficiency-meta"><span>AWS</span><strong>Strong</strong></div>
+                  <div class="bar-bg">
+                    <div class="bar-fill" data-w="0.90"></div>
+                  </div>
+                </div>
+                <div class="proficiency-item">
+                  <div class="proficiency-meta"><span>React</span><strong>Strong</strong></div>
+                  <div class="bar-bg">
+                    <div class="bar-fill" data-w="0.88"></div>
+                  </div>
+                </div>
+                <div class="proficiency-item">
+                  <div class="proficiency-meta"><span>Java</span><strong>Proficient</strong></div>
+                  <div class="bar-bg">
+                    <div class="bar-fill" data-w="0.72"></div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="skill-card" data-obs="">
+              <div class="sk-cat">Languages</div>
+              <div class="tags">
+                <span class="sk-tag hl">TypeScript</span>
+                <span class="sk-tag hl">JavaScript</span>
+                <span class="sk-tag">Java</span>
+                <span class="sk-tag">HTML5</span>
+                <span class="sk-tag">CSS3</span>
+              </div>
+            </article>
+
+            <article class="skill-card" data-obs="">
+              <div class="sk-cat">Frameworks &amp; APIs</div>
+              <div class="tags">
+                <span class="sk-tag hl">Node.js</span>
+                <span class="sk-tag hl">Express.js</span>
+                <span class="sk-tag hl">GraphQL</span>
+                <span class="sk-tag hl">React</span>
+                <span class="sk-tag">REST API</span>
+                <span class="sk-tag">Angular</span>
+                <span class="sk-tag">Spring Boot</span>
+                <span class="sk-tag">Microservices</span>
+                <span class="sk-tag">Serverless</span>
+              </div>
+            </article>
+
+            <article class="skill-card" data-obs="">
+              <div class="sk-cat">Cloud &amp; Infrastructure</div>
+              <div class="tags">
+                <span class="aws-tag">Lambda</span>
+                <span class="aws-tag">AppSync</span>
+                <span class="aws-tag">API Gateway</span>
+                <span class="aws-tag">Step Functions</span>
+                <span class="aws-tag">EC2</span>
+                <span class="aws-tag">S3</span>
+                <span class="aws-tag">RDS</span>
+                <span class="aws-tag">DynamoDB</span>
+                <span class="aws-tag">SQS</span>
+                <span class="aws-tag">SNS</span>
+                <span class="aws-tag">EventBridge</span>
+                <span class="aws-tag">CloudWatch</span>
+                <span class="aws-tag">IAM</span>
+                <span class="aws-tag">CloudFormation</span>
+              </div>
+            </article>
+
+            <article class="skill-card" data-obs="">
+              <div class="sk-cat">Databases &amp; Querying</div>
+              <div class="tags">
+                <span class="sk-tag hl">MySQL</span>
+                <span class="sk-tag hl">MongoDB</span>
+                <span class="sk-tag hl">DynamoDB</span>
+                <span class="sk-tag">Elasticsearch</span>
+                <span class="sk-tag">TRINO</span>
+              </div>
+            </article>
+
+            <article class="skill-card" data-obs="">
+              <div class="sk-cat">Quality &amp; DevOps</div>
+              <div class="tags">
+                <span class="sk-tag hl">GitHub Actions</span>
+                <span class="sk-tag hl">Docker</span>
+                <span class="sk-tag hl">Kafka</span>
+                <span class="sk-tag">Jest</span>
+                <span class="sk-tag">SuperTest</span>
+                <span class="sk-tag">Mocha</span>
+                <span class="sk-tag">Sinon / Chai</span>
+                <span class="sk-tag">Git</span>
+                <span class="sk-tag">Maven</span>
+                <span class="sk-tag">Jira</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CERTS & EDUCATION -->
+    <div class="sw-alt" id="certifications">
+      <div class="sw-alt-inner">
+        <div class="sh">
+          <h2 class="sh-title">Certifications &amp; Education</h2>
+          <div class="sh-line"></div>
+        </div>
+        <a class="cert-card" data-obs=""
+          href="https://www.credly.com/badges/6a796256-8b9c-4b2b-83f7-849d614feaec/public_url" rel="noopener"
+          target="_blank">
+          <div class="cert-icon">☁️</div>
+          <div>
+            <div class="cert-name">AWS Certified Cloud Practitioner</div>
+            <div class="cert-issuer">Amazon Web Services (AWS)</div>
+            <div class="cert-date">Issued: February 2026</div>
+          </div>
+          <span class="cert-btn">View on Credly</span>
+        </a>
+        <div class="edu-card" data-obs="">
+          <div class="edu-icon">🎓</div>
+          <div>
+            <div class="edu-degree">B.Tech — Information Technology</div>
+            <div class="edu-school">Ajay Kumar Garg Engineering College, Ghaziabad</div>
+            <div class="edu-pills">
+              <span class="epill epill-blue">Graduated August 2021</span>
+              <span class="epill epill-green">AWS CCP • 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONTACT / FOOTER -->
+    <div class="sw contact-section" id="contact">
+
+      <div class="footer-grid footer-grid-clean">
+        <div class="footer-brand">
+          <div class="footer-brand-head">
+            <span class="footer-brand-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path d="M12 3v18"></path>
+                <path d="M5 8c2.2-1.3 4.5-2 7-2s4.8.7 7 2"></path>
+                <path d="M5 16c2.2 1.3 4.5 2 7 2s4.8-.7 7-2"></path>
+              </svg>
+            </span>
+            <span class="footer-brand-name">Connect</span>
+          </div>
+          <p class="footer-copy">
+            Open to backend, full-stack, and cloud engineering opportunities. Reach out for roles, collaborations, or product discussions.
+          </p>
+          <a class="footer-cta" href="mailto:prateek.aga.1999@gmail.com">Say Hello</a>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Navigation</div>
+          <div class="footer-links">
+            <a href="#hero">About Me</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#certifications">Certifications &amp; Education</a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <div class="footer-socials">
+            <a class="footer-social" href="mailto:prateek.aga.1999@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+                stroke-linejoin="round">
+                <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                <path d="m3 7 9 6 9-6"></path>
+              </svg>
+            </a>
+            <a class="footer-social" href="tel:+918285175354" aria-label="Phone">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"
+                stroke-linejoin="round">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.18 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.9.33 1.77.63 2.61a2 2 0 0 1-.45 2.11L8 9.91a16 16 0 0 0 6.09 6.09l1.47-1.29a2 2 0 0 1 2.11-.45c.84.3 1.71.51 2.61.63A2 2 0 0 1 22 16.92Z">
+                </path>
+              </svg>
+            </a>
+            <a class="footer-social" href="https://wa.me/918285175354" target="_blank" rel="noopener"
+              aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M20.52 3.48A11.86 11.86 0 0 0 12.05 0C5.5 0 .17 5.33.17 11.88c0 2.1.55 4.16 1.6 5.97L0 24l6.34-1.66a11.83 11.83 0 0 0 5.71 1.46h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.23-6.14-3.42-8.44Zm-8.47 18.3h-.01a9.9 9.9 0 0 1-5.05-1.39l-.36-.21-3.76.98 1-3.66-.24-.38a9.89 9.89 0 0 1-1.53-5.24C2.09 6.42 6.55 1.96 12.04 1.96a9.8 9.8 0 0 1 6.98 2.9 9.8 9.8 0 0 1 2.89 6.98c0 5.49-4.47 9.95-9.96 9.95Zm5.46-7.43c-.3-.15-1.76-.87-2.03-.96-.27-.1-.47-.15-.66.15-.2.3-.76.96-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.66-1.58-.91-2.16-.24-.58-.49-.5-.66-.5h-.56c-.2 0-.52.08-.8.37-.27.3-1.05 1.03-1.05 2.52s1.08 2.92 1.23 3.12c.15.2 2.12 3.24 5.13 4.54.72.31 1.29.5 1.73.64.73.23 1.39.2 1.91.12.58-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.34Z" />
+              </svg>
+            </a>
+            <a class="footer-social" href="https://www.linkedin.com/in/prateek-agarwal-5640a6200/" target="_blank"
+              rel="noopener" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M6.94 8.5H3.56V20h3.38V8.5ZM5.25 3a1.96 1.96 0 1 0 0 3.92 1.96 1.96 0 0 0 0-3.92ZM20 12.73c0-3.16-1.69-4.63-3.95-4.63-1.82 0-2.63 1-3.08 1.7V8.5H9.6c.04.86 0 11.5 0 11.5h3.37v-6.42c0-.34.03-.69.13-.93.27-.68.88-1.39 1.9-1.39 1.34 0 1.88 1.02 1.88 2.51V20H20v-7.27Z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-col-title">Based in</div>
+          <div class="footer-location-card">
+            <div class="footer-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3500.059256566131!2d77.48802607557536!3d28.68787397563452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf300763f3ae5%3A0x1be7436665b5aac3!2sKripa%20Niwas!5e0!3m2!1sen!2sin!4v1775310527039!5m2!1sen!2sin"
+                loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Kripa Niwas">
+              </iframe>
+            </div>
+            <a class="footer-map-link" href="https://maps.app.goo.gl/G71E3NFpZbgkWVnTA" target="_blank"
+              rel="noopener">Open in Maps</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-mini">
+          <span class="footer-mark">©</span> <span>Made with</span> <span class="footer-heart"
+            aria-hidden="true">♥</span>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </main>
+  <a class="footer-whatsapp-float" href="https://wa.me/918285175354" target="_blank" rel="noopener"
+    aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="currentColor">
+      <path
+        d="M20.52 3.48A11.86 11.86 0 0 0 12.05 0C5.5 0 .17 5.33.17 11.88c0 2.1.55 4.16 1.6 5.97L0 24l6.34-1.66a11.83 11.83 0 0 0 5.71 1.46h.01c6.55 0 11.88-5.33 11.88-11.88 0-3.17-1.23-6.14-3.42-8.44Zm-8.47 18.3h-.01a9.9 9.9 0 0 1-5.05-1.39l-.36-.21-3.76.98 1-3.66-.24-.38a9.89 9.89 0 0 1-1.53-5.24C2.09 6.42 6.55 1.96 12.04 1.96a9.8 9.8 0 0 1 6.98 2.9 9.8 9.8 0 0 1 2.89 6.98c0 5.49-4.47 9.95-9.96 9.95Zm5.46-7.43c-.3-.15-1.76-.87-2.03-.96-.27-.1-.47-.15-.66.15-.2.3-.76.96-.94 1.16-.17.2-.35.22-.64.08-.3-.15-1.25-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.05-.17-.3-.02-.46.13-.61.13-.13.3-.35.44-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.66-1.58-.91-2.16-.24-.58-.49-.5-.66-.5h-.56c-.2 0-.52.08-.8.37-.27.3-1.05 1.03-1.05 2.52s1.08 2.92 1.23 3.12c.15.2 2.12 3.24 5.13 4.54.72.31 1.29.5 1.73.64.73.23 1.39.2 1.91.12.58-.09 1.76-.72 2.01-1.42.25-.7.25-1.29.17-1.42-.07-.12-.27-.2-.57-.34Z" />
+    </svg>
+  </a>
+</body>
+
+</html>
